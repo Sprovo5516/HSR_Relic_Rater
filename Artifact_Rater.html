@@ -17,7 +17,12 @@
       <h2>Select the options that fit the artifact you wish to rate!</h2>
       <h4>Please Note:</h4>
       <p>All artifacts are assumed to be at least 5 stars and level 0; additionally, this is a WIP.</p>
-	  <img id="artifactImage" src="" alt="Artifact Image" style="width: 256px; height: 256px;">
+	  <div id="artifactContainer">
+		<img id="artifactImage" src="" alt="Artifact Image" style="width: 256px; height: 256px;">
+		<div id="artifactDescription" style="display: inline-block; margin-left: 20px; vertical-align: top;">
+
+		</div>
+	  </div>
 
 
       <legend>Artifact Piece</legend>
@@ -34,30 +39,30 @@
       <div id="ifRelic" style="display: block;">
         <legend>Relic Set</legend>
         <select id="relicSelect">
-			<option value="None">Select A Relic Set</option>
-			<option value="BoST">Band of Sizzling Thunder</option>
-			<option value="CoSB">Champion of Streetwise Boxing</option>
-			<option value="EoTL">Eagle of Twilight Line</option>
-			<option value="FoLF">Firesmith of Lava-Forging</option>
-			<option value="GoBS">Genius of Brilliant Stars</option>
-			<option value="GoWS">Guard of Wuthering Snow</option>
-			<option value="HoGF">Hunter of Glacial Forest</option>
-			<option value="ICAS">Iron Cavalry Against the Scourge</option>
-			<option value="KoPP">Knight of Purity Palace</option>
-			<option value="LoDi">Longevous Disciple</option>
-			<option value="MTHs">Messenger Traversing Hackerspace</option>
-			<option value="MoWW">Musketeer of Wild Wheat</option>
-			<option value="PoWC">Passerby of Wandering Cloud</option>
-			<option value="PDDW">Pioneer Diver of Dead Waters</option>
-			<option value="PiDC">Prisoner in Deep Confinement</option>
-			<option value="SaRO">Sacerdos' Relived Ordeal</option>
-			<option value="SLiE">Scholar Lost in Erudition</option>
-			<option value="TAGD">The Ashblazing Grand Duke</option>
-			<option value="TWSV">The Wind Soaring Valorous</option>
-			<option value="ToSM">Thief of Shooting Meteor</option>
-			<option value="WoBD">Wastelander of Banditry Desert</option>
-			<option value="WMDM">Watchmaker, Master of Dream Machinations</option>
-          <!-- Add other relic options -->
+				<option value="None">Select A Relic Set</option>
+				<option value="BoST">Band of Sizzling Thunder</option>
+				<option value="CoSB">Champion of Streetwise Boxing</option>
+				<option value="EoTL">Eagle of Twilight Line</option>
+				<option value="FoLF">Firesmith of Lava-Forging</option>
+				<option value="GoBS">Genius of Brilliant Stars</option>
+				<option value="GoWS">Guard of Wuthering Snow</option>
+				<option value="HoGF">Hunter of Glacial Forest</option>
+				<option value="ICAS">Iron Cavalry Against the Scourge</option>
+				<option value="KoPP">Knight of Purity Palace</option>
+				<option value="LoDi">Longevous Disciple</option>
+				<option value="MTHs">Messenger Traversing Hackerspace</option>
+				<option value="MoWW">Musketeer of Wild Wheat</option>
+				<option value="PoWC">Passerby of Wandering Cloud</option>
+				<option value="PDDW">Pioneer Diver of Dead Waters</option>
+				<option value="PiDC">Prisoner in Deep Confinement</option>
+				<option value="SaRO">Sacerdos' Relived Ordeal</option>
+				<option value="SLiE">Scholar Lost in Erudition</option>
+				<option value="TAGD">The Ashblazing Grand Duke</option>
+				<option value="TWSV">The Wind Soaring Valorous</option>
+				<option value="ToSM">Thief of Shooting Meteor</option>
+				<option value="WoBD">Wastelander of Banditry Desert</option>
+				<option value="WMDM">Watchmaker, Master of Dream Machinations</option>
+            <!-- Add other relic options -->
         </select>
       </div>
 
@@ -83,7 +88,7 @@
 			<option value="SVon">Sprightly Vonwacq</option>
 			<option value="TKoB">Talia: Kingdom of Banditry</option>
 			<option value="TWBP">The Wondrous BananAmusment Park</option>
-          <!-- Add other ornament options -->
+            <!-- Add other ornament options -->
         </select>
       </div>
 
@@ -185,132 +190,189 @@
       </div>
     </main>
 
-    <script>
-      // Map artifact types to their corresponding element IDs
-      const artifactMap = {
-        head: "ifHead",
-        hands: "ifHands",
-        body: "ifBody",
-        feet: "ifFeet",
-        planarSphere: "ifPlanarSphere",
-        linkRope: "ifLinkRope",
-      };
+	<script>
+	  // Map artifact types to their corresponding element IDs
+	  const artifactMap = {
+		head: "ifHead",
+		hands: "ifHands",
+		body: "ifBody",
+		feet: "ifFeet",
+		planarSphere: "ifPlanarSphere",
+		linkRope: "ifLinkRope",
+	  };
 
-      const artifactSelect = document.getElementById("artifactSelect");
-      const relicSection = document.getElementById("ifRelic");
-      const ornamentSection = document.getElementById("ifOrnament");
-      const mainStatSections = document.querySelectorAll("#mainStatSections > div");
+	  const artifactSelect = document.getElementById("artifactSelect");
+	  const relicSection = document.getElementById("ifRelic");
+	  const ornamentSection = document.getElementById("ifOrnament");
+	  const mainStatSections = document.querySelectorAll("#mainStatSections > div");
 
-      let currentArtifactType = 'relic';  // Track whether we are in Relic or Ornament selection
-      let currentRelicSet = "None";
+	  let currentArtifactType = 'relic';  // Track whether we are in Relic or Ornament selection
+	  let currentRelicSet = "None";
 
-      // Map the artifact pieces to the corresponding part of the image
-      const artifactPieceMap = {
-        head: "Head",
-        hands: "Hands",
-        body: "Body",
-        feet: "Feet",
-        planarSphere: "Sphere",
-        linkRope: "Rope",
-      };
+	  // Map the artifact pieces to the corresponding part of the image
+	  const artifactPieceMap = {
+		head: "Head",
+		hands: "Hands",
+		body: "Body",
+		feet: "Feet",
+		planarSphere: "Sphere",
+		linkRope: "Rope",
+	  };
 
-      artifactSelect.addEventListener("change", function () {
-        const selectedValue = artifactSelect.value;
+	  // Description text for each set (add more as needed)
+	  const setDescriptions = {		
+		<!-- Cavern Relics -->
+		BoST: "<h2>Band of Sizzling Thunder</h2><b>2 Piece:</b><br>Increases Lightning DMG by 10%.<br><br><b>4 Piece:</b><br>When the wearer uses their Skill, increases the wearer's ATK by 20% for 2 turns.",
+		CoSB: "<h2>Champion of Streetwise Boxing</h2><b>2 Piece:</b><br>Increases Physical DMG by 10%.<br><br><b>4 Piece:</b><br>After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s).",
+		EoTL: "<h2>Eagle of Twilight Line</h2><b>2 Piece:</b><br>Increases Wind DMG by 10%.<br><br><b>4 Piece:</b><br>After the wearer uses their Ultimate, their action is Advanced Forward by 25%.",
+		FoLF: "<h2>Firesmith of Lava-Forging</h2><b>2 Piece:</b><br>Increases Fire DMG by 10%.<br><br><b>4 Piece:</b><br>Increases the wearer's Skill DMG by 12%. After unleashing Ultimate, increases the wearer's Fire DMG by 12% for the next attack.",
+		GoBS: "<h2>Genius of Brilliant Stars</h2><b>2 Piece:</b><br>Increases Quantum DMG by 10%.<br><br><b>4 Piece:</b><br>When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF.",
+		GoWS: "<h2>Guard of Wuthering Snow</h2><b>2 Piece:</b><br>Reduces DMG taken by 8%.<br><br><b>4 Piece:</b><br>At the beginning of the turn, if the wearer's HP is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy.",
+		HoGF: "<h2>Hunter of Glacial Forest</h2><b>2 Piece:</b><br>Increases Ice DMG by 10%.<br><br><b>4 Piece:</b><br>After the wearer uses their Ultimate, their CRIT DMG increases by 25% for 2 turn(s).",
+		ICAS: "<h2>Iron Cavalry Against the Scourge</h2><b>2 Piece:</b><br>Increases Break Effect by 16%.<br><br><b>4 Piece:</b><br>If the wearer's Break Effect is 150% or higher, the Break DMG dealt to the enemy target ignores 10% of their DEF. If the wearer's Break Effect<br> is 250% or higher, the Super Break DMG dealt to the enemy target additionally ignores 15% of their DEF.",
+		KoPP: "<h2>Knight of Purity Palace</h2><b>2 Piece:</b><br>Increases DEF by 15%.<br><br><b>4 Piece:</b><br>Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%.",
+		LoDi: "<h2>Longevous Disciple</h2><b>2 Piece:</b><br>Increases Max HP by 12%.<br><br><b>4 Piece:</b><br>When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks.",
+		MTHs: "<h2>Messenger Traversing Hackerspace</h2><b>2 Piece:</b><br>Increases SPD by 6%.<br><br><b>4 Piece:</b><br>When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked.",
+		MoWW: "<h2>Musketeer of Wild Wheat</h2><b>2 Piece:</b><br>ATK increases by 12%.<br><br><b>4 Piece:</b><br>The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%.",
+		PoWC: "<h2>Passerby of Wandering Cloud</h2><b>2 Piece:</b><br>Increases Outgoing Healing by 10%.<br><br><b>4 Piece:</b><br>At the start of the battle, immediately regenerates 1 Skill Point.",
+		PDDW: "<h2>Pioneer Diver of Dead Waters</h2><b>2 Piece:</b><br>Increases DMG dealt to enemies with debuffs by 12%.<br><br><b>4 Piece:</b><br>Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer<br> inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn(s).",
+		PiDC: "<h2>Prisoner in Deep Confinement</h2><b>2 Piece:</b><br>ATK increases by 12%.<br><br><b>4 Piece:</b><br>For every DoT the target enemy is afflicted with, the wearer will ignore 6% of its DEF when dealing DMG to it. This effect is valid for a max of 3 DoTs.",
+		SaRO: "<h2>Sacerdos' Relived Ordeal</h2><b>2 Piece:</b><br>Increases SPD by 6%.<br><br><b>4 Piece:</b><br>When using Skill or Ultimate on one ally target, increases the ability target's CRIT DMG by 18%, lasting for 2 turn(s). This effect can stack up to 2 time(s).",
+		SLiE: "<h2>Scholar Lost in Erudition</h2><b>2 Piece:</b><br>Increases CRIT Rate by 8%.<br><br><b>4 Piece:</b><br>Increases DMG dealt by Skill and Ultimate by 20%. After using Ultimate, additionally increases the DMG dealt by the next Skill by 25%.",
+		TAGD: "<h2>The Ashblazing Grand Duke</h2><b>2 Piece:</b><br>Increases the DMG dealt by follow-up attacks by 20%.<br><br><b>4 Piece:</b><br>When the wearer uses follow-up attacks, increases the wearer's ATK by 6% for every time the follow-up attack deals DMG. This<br> effect can stack up to 8 time(s) and lasts for 3 turn(s). This effect is removed the next time the wearer uses a follow-up attack.",
+		TWSV: "<h2>The Wind Soaring Valorous</h2><b>2 Piece:</b><br>Increases ATK by 12%.<br><br><b>4 Piece:</b><br>Increases the wearer's CRIT Rate by 6%. When the wearer uses a follow-up attack, increases the DMG dealt by Ultimate by 36%, lasting for 1 turn(s).",
+		ToSM: "<h2>Thief of Shooting Meteor</h2><b>2 Piece:</b><br>Increases Break Effect by 16%<br><br><b>4 Piece:</b><br>Increases the wearer's Break Effect by 16%. After the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy.",
+		WoBD: "<h2>Wastelander of Banditry Desert</h2><b>2 Piece:</b><br>Increases Imaginary DMG by 10%.<br><br><b>4 Piece:</b><br>When attacking debuffed enemies, the wearer's CRIT Rate increases by 10%, and their CRIT DMG increases by 20% against Imprisoned enemies.",
+		WMDM: "<h2>Watchmaker, Master of Dream Machinations</h2><b>2 Piece:</b><br>Increases Break Effect by 16%.<br><br><b>4 Piece:</b><br>When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turn(s). This effect cannot be stacked.",
 
-        // Toggle main stat sections visibility
-        mainStatSections.forEach((section) => {
-          section.style.display =
-            section.id === artifactMap[selectedValue] ? "block" : "none";
-        });
+		<!-- Planar Ornaments -->
+		BoTA: "<h2>Belobog of the Architects</h2><b>2 Piece:</b><br>Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.",
+		BroK: "<h2>Broken Keel</h2><b>2 Piece:</b><br>Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%",
+		CDif: "<h2>Celestial Differentiator</h2><b>2 Piece:</b><br>Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle,<br> the wearer's CRIT Rate increases by 60% until the end of their first attack.",
+		DDRW: "<h2>Duran, Dynasty of Running Wolves</h2><b>2 Piece:</b><br>When an ally uses follow-up attacks, the wearer gains 1 stack of Merit, stacking up to 5 time(s). Each stack of Merit<br> increases the DMG dealt by the wearer's follow-up attacks by 5%. When there are 5 stacks, additionally increases the wearer's CRIT DMG by 25%.",
+		FFGl: "<h2>Firmament Frontline: Glamoth</h2><b>2 Piece:</b><br>Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG.",
+		FotA: "<h2>Fleet of the Ageless</h2><b>2 Piece:</b><br>Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.",
+		FoKL: "<h2>Forge of the Kalpangi Lantern</h2><b>2 Piece:</b><br>Increases the wearer's SPD by 6%. When the wearer hits an enemy target that has Fire Weakness, the wearer's Break Effect<br> increases by 40%, lasting for 1 turn(s).",
+		InSa: "<h2>Inert Salsotto</h2><b>2 Piece:</b><br>Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up<br> attack DMG increases by 15%.",
+		IGTR: "<h2>Izumo Gensei and Takama Divine Realm</h2><b>2 Piece:</b><br>Increases the wearer's ATK by 12%. When entering battle, if at least one other ally follows the same Path as the<br> wearer, then the wearer's CRIT Rate increases by 12%.",
+		LuSS: "<h2>Lushaka, the Sunken Seas</h2><b>2 Piece:</b><br>Increases the wearer's Energy Regeneration Rate by 5%. If the wearer is not the first character in the team lineup, then increases<br> the ATK of the first character in the team lineup by 12%.",
+		PCCE: "<h2>Pan-Cosmic Commercial Enterprise</h2><b>2 Piece:</b><br>Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of<br> the current Effect Hit Rate, up to a maximum of 25%.",
+		PLoD: "<h2>Penacony, Land of the Dreams</h2><b>2 Piece:</b><br>Increases wearer's Energy Regeneration Rate by 5%. Increases DMG by 10% for all other allies that are of the same Type as the wearer.",
+		RutA: "<h2>Rutilant Arena</h2><b>2 Piece:</b><br>Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG<br> increase by 20%.",
+		SigU: "<h2>Sigonia, the Unclaimed Desolation</h2><b>2 Piece:</b><br>Increases the wearer's CRIT Rate by 4%. When an enemy target gets defeated, the wearer's CRIT DMG increases by 4%,<br> stacking up to 10 time(s).",
+		SpSS: "<h2>Space Sealing Station</h2><b>2 Piece:</b><br>Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%.",
+		SVon: "<h2>Sprightly Vonwacq</h2><b>2 Piece:</b><br>Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward<br> by 40% immediately upon entering battle.",
+		TKoB: "<h2>Talia: Kingdom of Banditry</h2><b>2 Piece:</b><br>Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 20%",
+		TWBP: "<h2>The Wondrous BananAmusment Park</h2><b>2 Piece:</b><br>Increases the wearer's CRIT DMG by 16%. When a target summoned by the wearer is on the field, CRIT DMG additionally increases by 32%.",
+		None: "",
+	  };
 
-        // Toggle relic/ornament visibility and track the type
-        if (selectedValue === "planarSphere" || selectedValue === "linkRope") {
-          relicSection.style.display = "none";
-          ornamentSection.style.display = "block";
-          currentArtifactType = 'ornament';  // Set artifact type to Planar Ornament
-        } else {
-          relicSection.style.display = "block";
-          ornamentSection.style.display = "none";
-          currentArtifactType = 'relic';  // Set artifact type to Relic
-        }
+	  artifactSelect.addEventListener("change", function () {
+		const selectedValue = artifactSelect.value;
 
-        // Update the image based on the new selection
-        changeArtifactImage(selectedValue);
-      });
+		// Toggle main stat sections visibility
+		mainStatSections.forEach((section) => {
+		  section.style.display =
+			section.id === artifactMap[selectedValue] ? "block" : "none";
+		});
 
-		// Function to change the image based on selected artifact piece
-		function changeArtifactImage(artifactPiece) {
-		  let imageSrc;
-
-		  // If no relic or ornament is selected, set the image to the placeholder
-		  if (currentRelicSet === "none") {
-			imageSrc = "images/placeholder.png"; // Fallback placeholder image
-		  } else {
-			// Otherwise, construct the image path for the selected relic/ornament set and artifact piece
-			if (currentArtifactType === 'ornament') {
-			  imageSrc = `images/Planar Ornaments/${currentRelicSet}/${currentRelicSet}-${artifactPieceMap[artifactPiece]}.png`;
-			} else {
-			  imageSrc = `images/Cavern Relics/${currentRelicSet}/${currentRelicSet}-${artifactPieceMap[artifactPiece]}.png`;
-			}
-		  }
-
-		  // Log the constructed image source for debugging
-		  console.log("Constructed image path:", imageSrc);
-
-		  // Check if the image exists and set the src
-		  const artifactImage = document.getElementById("artifactImage");
-
-		  const img = new Image();
-		  img.onload = function () {
-			artifactImage.src = imageSrc; // Image exists, update the source
-		  };
-		  img.onerror = function () {
-			artifactImage.src = "images/placeholder.png"; // If the image doesn't exist, fallback to the placeholder
-		  };
-
-		  img.src = imageSrc; // Start loading the image
+		// Toggle relic/ornament visibility and track the type
+		if (selectedValue === "planarSphere" || selectedValue === "linkRope") {
+		  relicSection.style.display = "none";
+		  ornamentSection.style.display = "block";
+		  currentArtifactType = 'ornament';  // Set artifact type to Planar Ornament
+		} else {
+		  relicSection.style.display = "block";
+		  ornamentSection.style.display = "none";
+		  currentArtifactType = 'relic';  // Set artifact type to Relic
 		}
 
-		// Relic and Ornament set select change event listeners
-		const relicSelect = document.getElementById("relicSelect");
-		const ornamentSelect = document.getElementById("ornamentSelect");
+		// Update the image and description based on the new selection
+		changeArtifactImage(selectedValue);
+	  });
 
-		relicSelect.addEventListener("change", function () {
-		  currentRelicSet = relicSelect.value; // Update the selected relic set
-		  const selectedArtifactPiece = artifactSelect.value; // Get the selected artifact piece
-		  changeArtifactImage(selectedArtifactPiece); // Change the image based on selected artifact piece
-		});
+	  // Function to change the image and update the description
+	  function changeArtifactImage(artifactPiece) {
+		let imageSrc;
+		let descriptionText = ""; // Default to empty description
 
-		ornamentSelect.addEventListener("change", function () {
-		  currentRelicSet = ornamentSelect.value; // Update the selected ornament set
-		  const selectedArtifactPiece = artifactSelect.value; // Get the selected artifact piece
-		  changeArtifactImage(selectedArtifactPiece); // Change the image based on selected artifact piece
-		});
-
-		// Reset Relic and Ornament select menus when switching artifact type
-		artifactSelect.addEventListener("change", function () {
-		  const selectedValue = artifactSelect.value; // Get the selected artifact piece
-		  changeArtifactImage(selectedValue); // Call the function to change the image
-
-		  // Reset the dropdowns when switching between relic and ornament
-		  if (selectedValue === "planarSphere" || selectedValue === "linkRope") {
-			// If switching to Ornament, reset Relic dropdown to "none" and display the ornament section
-			relicSelect.value = "none";
-			relicSection.style.display = "none"; // Hide the relic section
-			ornamentSection.style.display = "block"; // Show the ornament section
-			ornamentSelect.value = "None"; // Reset the ornament dropdown
+		// If no relic or ornament is selected, set the image to the placeholder
+		if (currentRelicSet === "None") {
+		  imageSrc = "images/placeholder.png"; // Fallback placeholder image
+		  descriptionText = ""; // No description for placeholder
+		} else {
+		  // Otherwise, construct the image path for the selected relic/ornament set and artifact piece
+		  if (currentArtifactType === 'ornament') {
+			imageSrc = `images/Planar Ornaments/${currentRelicSet}/${currentRelicSet}-${artifactPieceMap[artifactPiece]}.png`;
 		  } else {
-			// If switching to Relic, reset Ornament dropdown to "none" and display the relic section
-			ornamentSelect.value = "none";
-			ornamentSection.style.display = "none"; // Hide the ornament section
-			relicSection.style.display = "block"; // Show the relic section
-			relicSelect.value = "None"; // Reset the relic dropdown
+			imageSrc = `images/Cavern Relics/${currentRelicSet}/${currentRelicSet}-${artifactPieceMap[artifactPiece]}.png`;
 		  }
-		});
 
-      // Initial image change based on default selection
-      changeArtifactImage("sphere");
-    </script>
+		  // Set description text based on the selected set
+		  descriptionText = setDescriptions[currentRelicSet] || ""; // Get description for the selected set
+		}
+
+		// Log the constructed image source for debugging
+		console.log("Constructed image path:", imageSrc);
+
+		// Check if the image exists and set the src
+		const artifactImage = document.getElementById("artifactImage");
+		const artifactDescription = document.getElementById("artifactDescription");
+
+		const img = new Image();
+		img.onload = function () {
+		  artifactImage.src = imageSrc; // Image exists, update the source
+		  artifactDescription.innerHTML = descriptionText; // Update the description
+		};
+		img.onerror = function () {
+		  artifactImage.src = "images/placeholder.png"; // If the image doesn't exist, fallback to the placeholder
+		  artifactDescription.innerHTML = ""; // Reset the description
+		};
+
+		img.src = imageSrc; // Start loading the image
+	  }
+
+	  // Relic and Ornament set select change event listeners
+	  const relicSelect = document.getElementById("relicSelect");
+	  const ornamentSelect = document.getElementById("ornamentSelect");
+
+	  relicSelect.addEventListener("change", function () {
+		currentRelicSet = relicSelect.value; // Update the selected relic set
+		const selectedArtifactPiece = artifactSelect.value; // Get the selected artifact piece
+		changeArtifactImage(selectedArtifactPiece); // Change the image based on selected artifact piece
+	  });
+
+	  ornamentSelect.addEventListener("change", function () {
+		currentRelicSet = ornamentSelect.value; // Update the selected ornament set
+		const selectedArtifactPiece = artifactSelect.value; // Get the selected artifact piece
+		changeArtifactImage(selectedArtifactPiece); // Change the image based on selected artifact piece
+	  });
+
+	  // Reset Relic and Ornament select menus when switching artifact type
+	  artifactSelect.addEventListener("change", function () {
+		const selectedValue = artifactSelect.value; // Get the selected artifact piece
+		changeArtifactImage(selectedValue); // Call the function to change the image
+
+		// Reset the dropdowns when switching between relic and ornament
+		if (selectedValue === "planarSphere" || selectedValue === "linkRope") {
+		  // If switching to Ornament, reset Relic dropdown to "None" and display the ornament section
+		  relicSelect.value = "None";
+		  relicSection.style.display = "none"; // Hide the relic section
+		  ornamentSection.style.display = "block"; // Show the ornament section
+		  ornamentSelect.value = "None"; // Reset the ornament dropdown
+		} else {
+		  // If switching to Relic, reset Ornament dropdown to "None" and display the relic section
+		  ornamentSelect.value = "None";
+		  ornamentSection.style.display = "none"; // Hide the ornament section
+		  relicSection.style.display = "block"; // Show the relic section
+		  relicSelect.value = "None"; // Reset the relic dropdown
+		}
+	  });
+
+	  // Initialize with a placeholder
+	  changeArtifactImage("sphere"); // Default to a sphere (or other valid value)
+	</script>
+
 
   </body>
 </html>
