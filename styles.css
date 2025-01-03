@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+  background-color: #1c1c2e; /* Deep purple-black background */
+  color: #e5d9f7; /* Light lavender text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #d76bff; /* Bright purple for headers */
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #c97cff; /* Slightly muted purple */
+}
+
+h4, legend {
+  color: #a97fb5; /* Softer purple */
+}
+
+p {
+  color: #f2e6ff; /* Very light lavender */
+}
+
+/* Navigation */
+ol {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+ol li {
+  margin: 0;
+}
+
+ol li a {
+  text-decoration: none;
+  color: #e5d9f7;
+  background-color: #3a2c4f; /* Dark purple background */
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+ol li a:hover {
+  background-color: #5b3a7d; /* Brighter purple on hover */
+}
+
+/* Form Elements */
+select, input[type="checkbox"] {
+  background-color: #2a2238; /* Dark gray-purple */
+  color: #e5d9f7;
+  border: 2px solid #5b3a7d; /* Bright purple border */
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+select:hover, input[type="checkbox"]:hover {
+  border-color: #d76bff; /* Bright purple hover effect */
+}
+
+label {
+  color: #e5d9f7;
+  margin-left: 5px;
+}
+
+/* Main Sections */
+main {
+  margin: 20px;
+  padding: 15px;
+  background-color: #292040; /* Deep purple-gray background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Sub-stat Checkbox Group */
+#checkboxgroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#checkboxgroup label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2); /* Slightly larger checkboxes */
+}
+
+
+/* Footer Links (if any) */
+a {
+  color: #d76bff;
+}
+
+a:hover {
+  color: #ff9dff; /* Light pink-purple on hover */
+}
+
+
+/* Miscellaneous */
+legend {
+  font-weight: bold;
+  border-bottom: 2px solid #5b3a7d;
+  padding-bottom: 5px;
+}

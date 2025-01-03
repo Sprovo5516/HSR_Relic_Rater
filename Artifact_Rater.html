@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Honkai Star Rail Artifact Rating System</title>
+	<link rel="stylesheet" href="styles.css">
+    <style></style>
+  </head>
+  <body>
+    <h1>Welcome to the HSR Artifact Rating System</h1>
+    <ol>
+      <li><strong><a href="Artifact_Rater_Home.html">Home</a></strong></li>
+      <li><strong><a href="Cached_Characters.html">Cached Characters</a></strong></li>
+    </ol>
+
+    <main>
+      <h2>Select the options that fit the artifact you wish to rate!</h2>
+      <h4>Please Note:</h4>
+      <p>All artifacts are assumed to be at least 5 stars and level 0; additionally, this is a WIP.</p>
+	  <img id="artifactImage" src="" alt="Artifact Image" style="width: 256px; height: 256px;">
+
+
+      <legend>Artifact Piece</legend>
+      <select id="artifactSelect">
+        <option value="head">Head</option>
+        <option value="hands">Hands</option>
+        <option value="body">Body</option>
+        <option value="feet">Feet</option>
+        <option value="planarSphere">Planar Sphere</option>
+        <option value="linkRope">Link Rope</option>
+      </select>
+
+      <!-- Relic and Ornament Sections -->
+      <div id="ifRelic" style="display: block;">
+        <legend>Relic Set</legend>
+        <select id="relicSelect">
+			<option value="None">Select A Relic Set</option>
+			<option value="BoST">Band of Sizzling Thunder</option>
+			<option value="CoSB">Champion of Streetwise Boxing</option>
+			<option value="EoTL">Eagle of Twilight Line</option>
+			<option value="FoLF">Firesmith of Lava-Forging</option>
+			<option value="GoBS">Genius of Brilliant Stars</option>
+			<option value="GoWS">Guard of Wuthering Snow</option>
+			<option value="HoGF">Hunter of Glacial Forest</option>
+			<option value="ICAS">Iron Cavalry Against the Scourge</option>
+			<option value="KoPP">Knight of Purity Palace</option>
+			<option value="LoDi">Longevous Disciple</option>
+			<option value="MTHs">Messenger Traversing Hackerspace</option>
+			<option value="MoWW">Musketeer of Wild Wheat</option>
+			<option value="PoWC">Passerby of Wandering Cloud</option>
+			<option value="PDDW">Pioneer Diver of Dead Waters</option>
+			<option value="PiDC">Prisoner in Deep Confinement</option>
+			<option value="SaRO">Sacerdos' Relived Ordeal</option>
+			<option value="SLiE">Scholar Lost in Erudition</option>
+			<option value="TAGD">The Ashblazing Grand Duke</option>
+			<option value="TWSV">The Wind Soaring Valorous</option>
+			<option value="ToSM">Thief of Shooting Meteor</option>
+			<option value="WoBD">Wastelander of Banditry Desert</option>
+			<option value="WMDM">Watchmaker, Master of Dream Machinations</option>
+          <!-- Add other relic options -->
+        </select>
+      </div>
+
+      <div id="ifOrnament" style="display: none;">
+        <legend>Planar Ornament Set</legend>
+        <select id="ornamentSelect">
+			<option value="None">Select An Ornament Set</option>
+			<option value="BoTA">Belobog of the Architects</option>
+			<option value="BroK">Broken Keel</option>
+			<option value="CDif">Celestial Differentiator</option>
+			<option value="DDRW">Duran, Dynasty of Running Wolves</option>
+			<option value="FFGl">Firmament Frontline: Glamoth</option>
+			<option value="FotA">Fleet of the Ageless</option>
+			<option value="FoKL">Forge of the Kalpangi Lantern</option>
+			<option value="InSa">Inert Salsotto</option>
+			<option value="IGTR">Izumo Gensei and Takama Divine Realm</option>
+			<option value="LuSS">Lushaka, the Sunken Seas</option>
+			<option value="PCCE">Pan-Cosmic Commercial Enterprise</option>
+			<option value="PLoD">Penacony, Land of the Dreams</option>
+			<option value="RutA">Rutilant Arena</option>
+			<option value="SigU">Sigonia, the Unclaimed Desolation</option>
+			<option value="SpSS">Space Sealing Station</option>
+			<option value="SVon">Sprightly Vonwacq</option>
+			<option value="TKoB">Talia: Kingdom of Banditry</option>
+			<option value="TWBP">The Wondrous BananAmusment Park</option>
+          <!-- Add other ornament options -->
+        </select>
+      </div>
+
+      <!-- Main Stats Sections -->
+      <legend>Main Stat</legend>
+      <div id="mainStatSections">
+        <div id="ifHead" style="display: block;">
+          <select>
+            <option value="flatHP">Flat HP</option>
+          </select>
+        </div>
+        <div id="ifHands" style="display: none;">
+          <select>
+            <option value="flatATK">Flat ATK</option>
+          </select>
+        </div>
+        <div id="ifBody" style="display: none;">
+          <select>
+            <option value="percentHP">HP %</option>
+            <option value="percentATK">ATK %</option>
+            <option value="percentDEF">DEF %</option>
+			<option value="effHitRate">Effect Hit Rate</option>
+			<option value="healBoost">Outgoing Healing Boost</option>
+			<option value="critRate">CRIT Rate</option>
+			<option value="critDMG">CRIT DMG</option>
+          </select>
+        </div>
+        <div id="ifFeet" style="display: none;">
+          <select>
+            <option value="percentHP">HP %</option>
+            <option value="percentATK">ATK %</option>
+            <option value="percentDEF">DEF %</option>
+			<option value="SPD">Speed</option>
+          </select>
+        </div>
+        <div id="ifPlanarSphere" style="display: none;">
+          <select>
+            <option value="percentHP">HP %</option>
+            <option value="percentATK">ATK %</option>
+            <option value="percentDEF">DEF %</option>
+			<option value="fireDMG">Fire DMG %</option>
+			<option value="iceDMG">Ice DMG %</option>
+			<option value="imgDMG">Imaginary DMG %</option>
+			<option value="lightDMG">Lightning DMG %</option>
+			<option value="physDMG">Physical DMG %</option>
+			<option value="QuanDMG">Quantum DMG %</option>
+			<option value="windDMG">Wind DMG %</option>
+          </select>
+        </div>
+        <div id="ifLinkRope" style="display: none;">
+          <select>
+            <option value="percentHP">HP %</option>
+            <option value="percentATK">ATK %</option>
+            <option value="percentDEF">DEF %</option>
+			<option value="breakEff">Break Effect</option>
+			<option value="ERR">Energy Regeneration Rate</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Sub-Stats -->
+      <legend>Sub-Stats</legend>
+      <div id="checkboxgroup">
+		<input type="checkbox" id="flatHP" name="subStat" />
+		<label for="flatHP">Flat HP</label><br />
+
+		<input type="checkbox" id="percentHP" name="subStat" />
+		<label for="percentHP">HP%</label><br />
+
+		<input type="checkbox" id="flatATK" name="subStat" />
+		<label for="flatATK">Flat ATK</label><br />
+
+		<input type="checkbox" id="percentATK" name="subStat" />
+		<label for="percentATK">ATK%</label><br />
+
+		<input type="checkbox" id="flatDEF" name="subStat" />
+		<label for="flatDEF">Flat DEF</label><br />
+
+		<input type="checkbox" id="percentDEF" name="subStat" />
+		<label for="percentDEF">DEF%</label><br />
+
+		<input type="checkbox" id="SPD" name="subStat" />
+		<label for="speed">Speed</label><br />
+
+		<input type="checkbox" id="breakEff" name="subStat" />
+		<label for="breakEffect">Break Effect</label><br />
+
+		<input type="checkbox" id="effHitRate" name="subStat" />
+		<label for="effectHitRate">Effect Hit Rate</label><br />
+
+		<input type="checkbox" id="effRes" name="subStat" />
+		<label for="effectRes">Effect Res</label><br />
+
+		<input type="checkbox" id="critRate" name="subStat" />
+		<label for="critRate">Crit Rate</label><br />
+
+		<input type="checkbox" id="critDMG" name="subStat" />
+		<label for="critDMG">Crit Damage</label><br />
+      </div>
+    </main>
+
+    <script>
+      // Map artifact types to their corresponding element IDs
+      const artifactMap = {
+        head: "ifHead",
+        hands: "ifHands",
+        body: "ifBody",
+        feet: "ifFeet",
+        planarSphere: "ifPlanarSphere",
+        linkRope: "ifLinkRope",
+      };
+
+      const artifactSelect = document.getElementById("artifactSelect");
+      const relicSection = document.getElementById("ifRelic");
+      const ornamentSection = document.getElementById("ifOrnament");
+      const mainStatSections = document.querySelectorAll("#mainStatSections > div");
+
+      let currentArtifactType = 'relic';  // Track whether we are in Relic or Ornament selection
+      let currentRelicSet = "None";
+
+      // Map the artifact pieces to the corresponding part of the image
+      const artifactPieceMap = {
+        head: "Head",
+        hands: "Hands",
+        body: "Body",
+        feet: "Feet",
+        planarSphere: "Sphere",
+        linkRope: "Rope",
+      };
+
+      artifactSelect.addEventListener("change", function () {
+        const selectedValue = artifactSelect.value;
+
+        // Toggle main stat sections visibility
+        mainStatSections.forEach((section) => {
+          section.style.display =
+            section.id === artifactMap[selectedValue] ? "block" : "none";
+        });
+
+        // Toggle relic/ornament visibility and track the type
+        if (selectedValue === "planarSphere" || selectedValue === "linkRope") {
+          relicSection.style.display = "none";
+          ornamentSection.style.display = "block";
+          currentArtifactType = 'ornament';  // Set artifact type to Planar Ornament
+        } else {
+          relicSection.style.display = "block";
+          ornamentSection.style.display = "none";
+          currentArtifactType = 'relic';  // Set artifact type to Relic
+        }
+
+        // Update the image based on the new selection
+        changeArtifactImage(selectedValue);
+      });
+
+		// Function to change the image based on selected artifact piece
+		function changeArtifactImage(artifactPiece) {
+		  let imageSrc;
+
+		  // If no relic or ornament is selected, set the image to the placeholder
+		  if (currentRelicSet === "none") {
+			imageSrc = "images/placeholder.png"; // Fallback placeholder image
+		  } else {
+			// Otherwise, construct the image path for the selected relic/ornament set and artifact piece
+			if (currentArtifactType === 'ornament') {
+			  imageSrc = `images/Planar Ornaments/${currentRelicSet}/${currentRelicSet}-${artifactPieceMap[artifactPiece]}.png`;
+			} else {
+			  imageSrc = `images/Cavern Relics/${currentRelicSet}/${currentRelicSet}-${artifactPieceMap[artifactPiece]}.png`;
+			}
+		  }
+
+		  // Log the constructed image source for debugging
+		  console.log("Constructed image path:", imageSrc);
+
+		  // Check if the image exists and set the src
+		  const artifactImage = document.getElementById("artifactImage");
+
+		  const img = new Image();
+		  img.onload = function () {
+			artifactImage.src = imageSrc; // Image exists, update the source
+		  };
+		  img.onerror = function () {
+			artifactImage.src = "images/placeholder.png"; // If the image doesn't exist, fallback to the placeholder
+		  };
+
+		  img.src = imageSrc; // Start loading the image
+		}
+
+		// Relic and Ornament set select change event listeners
+		const relicSelect = document.getElementById("relicSelect");
+		const ornamentSelect = document.getElementById("ornamentSelect");
+
+		relicSelect.addEventListener("change", function () {
+		  currentRelicSet = relicSelect.value; // Update the selected relic set
+		  const selectedArtifactPiece = artifactSelect.value; // Get the selected artifact piece
+		  changeArtifactImage(selectedArtifactPiece); // Change the image based on selected artifact piece
+		});
+
+		ornamentSelect.addEventListener("change", function () {
+		  currentRelicSet = ornamentSelect.value; // Update the selected ornament set
+		  const selectedArtifactPiece = artifactSelect.value; // Get the selected artifact piece
+		  changeArtifactImage(selectedArtifactPiece); // Change the image based on selected artifact piece
+		});
+
+		// Reset Relic and Ornament select menus when switching artifact type
+		artifactSelect.addEventListener("change", function () {
+		  const selectedValue = artifactSelect.value; // Get the selected artifact piece
+		  changeArtifactImage(selectedValue); // Call the function to change the image
+
+		  // Reset the dropdowns when switching between relic and ornament
+		  if (selectedValue === "planarSphere" || selectedValue === "linkRope") {
+			// If switching to Ornament, reset Relic dropdown to "none" and display the ornament section
+			relicSelect.value = "none";
+			relicSection.style.display = "none"; // Hide the relic section
+			ornamentSection.style.display = "block"; // Show the ornament section
+			ornamentSelect.value = "None"; // Reset the ornament dropdown
+		  } else {
+			// If switching to Relic, reset Ornament dropdown to "none" and display the relic section
+			ornamentSelect.value = "none";
+			ornamentSection.style.display = "none"; // Hide the ornament section
+			relicSection.style.display = "block"; // Show the relic section
+			relicSelect.value = "None"; // Reset the relic dropdown
+		  }
+		});
+
+      // Initial image change based on default selection
+      changeArtifactImage("sphere");
+    </script>
+
+  </body>
+</html>
