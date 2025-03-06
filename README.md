@@ -1,8 +1,8 @@
 # HSR_Relic_Rater
 A rating machine for HSR Relics. 
 For a full list of all relic sets and characters that this rater covers look at the following files.<br>
-[Character List](Character_list.txt)<br>
-[Relic List](Relic_list.txt)
+- [Character List](Character_list.txt)<br>
+- [Relic List](Relic_list.txt)
 
 # Changelog V1.1
 Added a ranking system for relics. After submitting a relic it's ranked from D to S++ Tier for each character. Every character is then displayed   for you to see how the relic lines up for everybody.<br>
