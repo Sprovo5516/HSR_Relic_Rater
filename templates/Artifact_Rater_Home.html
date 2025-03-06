@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- Author: Stone Provo -->
+    <title>Honkai Star Rail Artifact Rating System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" id="stylesheet">
+		<style>
+		  .content-wrapper {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			gap: 20px;
+			margin: 20px auto;
+			padding: 20px;
+			background-color: #292040; 
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+			max-width: 1200px;
+		  }
+
+		  .changelog-box {
+			flex: 3;
+			padding: 20px;
+			background-color: #3a2c4f;
+			border-radius: 10px;
+			color: #e5d9f7;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+		  }
+
+		  .image-box {
+			flex: 1;
+			padding: 20px;
+			background-color: #2a2238;
+			border-radius: 10px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+		  }
+
+		  .image-box img {
+			max-width: 100%;
+			height: auto;
+			border-radius: 8px;
+			margin-bottom: 10px;
+		  } 
+
+		  .image-box h4 {
+		    color: #e5d9f7; /* Light lavender text color */
+		    margin: 0;
+		    text-align: center; /* Center-align the text below the image */
+  		  }
+
+		  @media (max-width: 768px) {
+			.content-wrapper {
+			  flex-direction: column;
+			  gap: 10px;
+			}
+
+			.changelog-box, .image-box {
+			  flex: none;
+			  width: 100%;
+			}
+		  }
+		  
+		      .hidden {
+				  display: none;
+			  }
+			  .see-more-btn {
+				  background-color: #6a4c93;
+				  color: white;
+				  border: none;
+				  padding: 10px 15px;
+				  cursor: pointer;
+				  border-radius: 5px;
+				  margin-top: 10px;
+			  }
+			  .see-more-btn:hover {
+				  background-color: #553c82;
+			  }
+		</style>
+
+
+  </head>
+	<body>
+	  <h1>Welcome to the HSR Artifact Relic System</h1>
+	  <ol>
+		<li><strong><a href="{{ url_for('artifact_rater') }}">Rate an Artifact</a></strong></li>
+		<li><strong><a href="{{ url_for('cached_characters') }}">Cached Characters</a></strong></li>
+	  </ol>
+
+	  <div class="content-wrapper">
+		  <div class="changelog-box">
+			  <h3>Changelog - V 1.1</h3>
+			  <p>
+				  Added a ranking system for relics. After submitting a relic it's ranked
+				  from D to S++ Tier for each character. Every character is then displayed
+				  for you to see how the relic lines up for everybody.
+			  </p>
+			  <p>
+				  Additionally, added the relic sets added since 2.7, it's now accurate up
+		  		  to version 3.1. This includes the following relics<br>
+				  <b>- Hero of Triumphant Song & Poet of Mourning Collapse (Cavern Relics)</b><br>
+				  <b>- Bone Collection's Serene Demesne & Giant Tree of Rapt Brooding (Planar Ornaments)</b>
+			  </p>
+			  <p>
+				  Version 2.0 is up next, adding the ability to save relics under specific 
+				  characters to build profiles for several characters, this should rank
+				  relics overall. <br>
+				  Before 2.0, I may try and implement ranking up relics, since that
+				  has been an idea for a bit now, I'm just unsure how to do it.
+			  </p>
+
+			  <!-- "See More" Button -->
+			  <button id="toggleChangelog" class="see-more-btn">Show Old Changelogs</button>
+
+			  <!-- Hidden Older Changelog -->
+			  <div id="olderChangelog" class="hidden">
+			  
+				  <!-- Paste old change logs here -->
+			  
+			  
+				  <h3>Changelog - V 1.0</h3>
+				  <p>
+					  Added the ability to, y'know, actually choose an artifact. Can't do any
+					  rating yet, but you're able to choose from all current relics up to Version 2.7.
+				  </p>
+				  <p>
+					  The primary focus for this was to allow the user to select the specific
+					  cavern relic/planar ornament set, then choose main stats from a table that
+					  would change depending on the chosen piece.
+				  </p>
+				  <p>
+					  Though, visuals were also focused on. Got a basic style sheet and image
+					  selection working, and now there's some pretty colors going on.
+				  </p>
+			  </div>
+		  </div>
+		  <div class="image-box">
+			  <img src="../static/images/other/kafka.png" alt="Artifact Image">	  
+			  <h4>UID: 601909292</h4>
+		  </div>
+	  </div>
+	
+	<script>
+	
+	document.getElementById("toggleChangelog").addEventListener("click", function() {
+        var olderChangelog = document.getElementById("olderChangelog");
+        if (olderChangelog.classList.contains("hidden")) {
+            olderChangelog.classList.remove("hidden");
+            this.textContent = "Hide Old Changelogs";
+        } else {
+            olderChangelog.classList.add("hidden");
+            this.textContent = "Show Old Changelogs";
+        }
+    });
+		// Fallback that will load the stylesheet if it isn't normally loaded by flask
+	    const stylesheet = document.getElementById('stylesheet');
+		stylesheet.onerror = () => {
+		  stylesheet.href = "../static/styles.css";
+		};
+	</script>
+</html>

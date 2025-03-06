@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Author: Stone Provo -->
+		<title> Honkai Star Rail Artifact Rating System </title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" id="stylesheet">
+		<style>
+		
+		</style>
+	</head>
+	<body>
+		<h1> Welcome to the HSR Artifact Rating System</h1>
+		<ol>
+			<li><strong><a href="{{ url_for('artifact_rater_home') }}">Home</a></strong></li>
+			<li><strong><a href="{{ url_for('artifact_rater') }}">Rate an Artifact</a></strong></li>
+		</ol>
+		<p>This is a later add, WIP</p>
+		
+	</body>
+	<script>
+		// Fallback that will load the stylesheet if it isn't normally loaded by flask
+	    const stylesheet = document.getElementById('stylesheet');
+		stylesheet.onerror = () => {
+		  stylesheet.href = "../static/styles.css";
+		};
+	</script>
+
+</html>

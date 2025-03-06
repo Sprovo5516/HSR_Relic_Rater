@@ -1,0 +1,3 @@
+Current Issue is twofold,
+	- Styling the checkboxes so that they have rectangles around them, I want these rectangles to be clickable to fill the checkbox, atm the only things clickable are the checkbox itself and the name next to it
+	- Speed, Break Effect, Eff Hit Rate, and one other I'm forgetting don't work at all, you have to click the check boxes themselves for these 4.

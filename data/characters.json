@@ -1,0 +1,2797 @@
+{
+	"Acheron":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 3,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PDDW", "priority": 5},
+		{"set_name": "SLiE", "priority": 4},
+		{"set_name": "BoST", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "IGTR", "priority": 5},
+		{"set_name": "InSa", "priority": 4},
+		{"set_name": "SpSS", "priority": 3},
+		{"set_name": "FFGl", "priority": 2}
+		],
+		"image":"/static/images/Characters/Acheron.png",
+		"color":"#3d3784"
+	},
+	
+	"Aglaea":{		
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 2,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 3,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "HoTS", "priority": 5},
+		{"set_name": "SLiE", "priority": 4},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "BoST", "priority": 2},
+		{"set_name": "PiDC", "priority": 2},
+		{"set_name": "TWSV", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "TWBP", "priority": 5},
+		{"set_name": "RutA", "priority": 4},
+		{"set_name": "FFGl", "priority": 3}
+		],
+		"image":"/static/images/Characters/Aglaea.png",
+		"color":"#eaba10"
+	},
+	
+	"Argenti":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 3,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 2
+		},
+		"best_relics": [
+		{"set_name": "SLiE", "priority": 5},
+		{"set_name": "CoSB", "priority": 4}
+		],
+		"best_ornaments": [
+		{"set_name": "InSa", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "SigU", "priority": 3}
+		],
+		"image":"/static/images/Characters/Argenti.png",
+		"color":"#b32827"
+	},
+		
+	"Anaxa":{
+		"stat_priority":{
+			"flatHP": 0,
+			"percentHP": 0,
+			"flatATK": 0,
+			"percentATK": 0,
+			"flatDEF": 0,
+			"percentDEF": 0,
+			"SPD": 0,
+			"breakEff": 0,
+			"effHitRate": 0,
+			"effectRes": 0,
+			"critRate": 0,
+			"critDMG": 0,
+			"healBoost": 0,
+			"fireDMG": 0,
+			"iceDMG": 0,
+			"imgDMG": 0,
+			"lightDMG": 0,
+			"physDMG": 0,
+			"quanDMG": 0,
+			"windDMG": 0,
+			"ERR": 0
+		},
+		"best_relics": [
+		{"set_name": "None", "priority": 0}
+		],
+		"best_ornaments": [
+		{"set_name": "None", "priority": 0}
+		],
+		"image":"/static/images/Characters/Anaxa.png",
+		"color":"#9bada4"
+	},
+		
+	"Arlan":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 3,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "SLiE", "priority": 5},
+		{"set_name": "BoST", "priority": 4},
+		{"set_name": "LoDi", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "SpSS", "priority": 3},
+		{"set_name": "InSa", "priority": 2}
+		],
+		"image":"/static/images/Characters/Arlan.png",
+		"color":"#d0cdc3"
+	},
+	
+	"Asta":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 2,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 2,
+			"critDMG": 2,
+			"healBoost": 1,
+			"fireDMG": 3,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 5},
+		{"set_name": "WMDM", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "SVon", "priority": 5},
+		{"set_name": "FoTA", "priority": 3},
+		{"set_name": "BroK", "priority": 3},
+		{"set_name": "PLoD", "priority": 3},
+		{"set_name": "LuSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Asta.png",
+		"color":"#f1babc"
+	},
+	
+	"Aventurine":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 3,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 2,
+			"critDMG": 2,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 3,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "KoPP", "priority": 5},
+		{"set_name": "PDDW", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 5},
+		{"set_name": "FoTA", "priority": 3},
+		{"set_name": "PLoD", "priority": 3},
+		{"set_name": "LuSS", "priority": 3},
+		{"set_name": "InSa", "priority": 2},
+		{"set_name": "DDRW", "priority": 2}
+		],
+		"image":"/static/images/Characters/Aventurine.png",
+		"color":"#dac9aa"
+	},
+	
+	"Bailu":{
+		"stat_priority":{
+			"flatHP": 3,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 3,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 5},
+		{"set_name": "PoWC", "priority": 4}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 5},
+		{"set_name": "FoTA", "priority": 3},
+		{"set_name": "PLoD", "priority": 3},
+		{"set_name": "LuSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Bailu.png",
+		"color":"#c8bce0"
+	},
+	
+	"Black Swan":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 2,
+			"effHitRate": 3,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 3,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PiDC", "priority": 5},
+		{"set_name": "PDDW", "priority": 3},
+		{"set_name": "MoWW", "priority": 2},
+		{"set_name": "EoTL", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "PCCE", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "SpSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Black_Swan.png",
+		"color":"#ccbfe9"
+	},
+	
+	"Blade":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 3,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "LoDi", "priority": 5},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "EoTL", "priority": 3},
+		{"set_name": "MoWW", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "InSa", "priority": 4},
+		{"set_name": "IGTR", "priority": 3}
+		],
+		"image":"/static/images/Characters/Blade.png",
+		"color":"#1c3147"
+	},
+	
+	"Boothill":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 2,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "ICAS", "priority": 5},
+		{"set_name": "ToSM", "priority": 3},
+		{"set_name": "MTHs", "priority": 2},
+		{"set_name": "SaRO", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "TKoB", "priority": 5},
+		{"set_name": "FoKL", "priority": 4}
+		],
+		"image":"/static/images/Characters/Boothill.png",
+		"color":"#443b39"
+	},
+	
+	"Bronya":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "SaRO", "priority": 5},
+		{"set_name": "MTHs", "priority": 4}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 5},
+		{"set_name": "FoTA", "priority": 3},
+		{"set_name": "PLoD", "priority": 3},
+		{"set_name": "LUSS", "priority": 3},
+		{"set_name": "SVon", "priority": 2}
+		],
+		"image":"/static/images/Characters/Bronya.png",
+		"color":"#b4a9b1"
+	},
+		
+	"Castorice":{
+		"stat_priority":{
+			"flatHP": 0,
+			"percentHP": 0,
+			"flatATK": 0,
+			"percentATK": 0,
+			"flatDEF": 0,
+			"percentDEF": 0,
+			"SPD": 0,
+			"breakEff": 0,
+			"effHitRate": 0,
+			"effectRes": 0,
+			"critRate": 0,
+			"critDMG": 0,
+			"healBoost": 0,
+			"fireDMG": 0,
+			"iceDMG": 0,
+			"imgDMG": 0,
+			"lightDMG": 0,
+			"physDMG": 0,
+			"quanDMG": 0,
+			"windDMG": 0,
+			"ERR": 0
+		},
+		"best_relics": [
+		{"set_name": "None", "priority": 0}
+		],
+		"best_ornaments": [
+		{"set_name": "None", "priority": 0}
+		],
+		"image":"/static/images/Characters/Castorice.png",
+		"color":"#946eaa"
+	},
+	
+	"Clara":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 1,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 3,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "CoSB", "priority": 5},
+		{"set_name": "LoDi", "priority": 4},
+		{"set_name": "TAGD", "priority": 3},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "DDRW", "priority": 5},
+		{"set_name": "InSa", "priority": 4},
+		{"set_name": "RutA", "priority": 3}
+		],
+		"image":"/static/images/Characters/Clara.png",
+		"color":"#cbbbc9"
+	},
+	
+	"Dan Heng":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 3,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PDDW", "priority": 5},
+		{"set_name": "SLiE", "priority": 4},
+		{"set_name": "EoTL", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "SpSS", "priority": 3},
+		{"set_name": "InSa", "priority": 2}
+		],
+		"image":"/static/images/Characters/Dan_Heng.png",
+		"color":"#3f3c38"
+	},
+	
+	"Dan Heng - IL":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 3,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "MoWW", "priority": 5},
+		{"set_name": "WoBD", "priority": 4},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "PiDC", "priority": 2},
+		{"set_name": "TWSV", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "SpSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/DHIL.png",
+		"color":"#3f3c38"
+	},
+	
+	"Dr. Ratio":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 3,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PDDW", "priority": 5},
+		{"set_name": "WoBD", "priority": 4},
+		{"set_name": "TAGD", "priority": 3},
+		{"set_name": "SLiE", "priority": 2},
+		{"set_name": "MoWW", "priority": 2},
+		{"set_name": "PiDC", "priority": 2},
+		{"set_name": "TWSV", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "DDRW", "priority": 5},
+		{"set_name": "IGTR", "priority": 4},
+		{"set_name": "FFGl", "priority": 3},
+		{"set_name": "InSa", "priority": 3}
+		],
+		"image":"/static/images/Characters/Dr_Ratio.png",
+		"color":"#493b78"
+	},
+	
+	"Feixiao":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 3,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "TWSV", "priority": 5},
+		{"set_name": "TAGD", "priority": 4},
+		{"set_name": "PDDW", "priority": 2},
+		{"set_name": "SLiE", "priority": 2},
+		{"set_name": "MoWW", "priority": 2},
+		{"set_name": "PiDC", "priority": 2},
+		{"set_name": "EoTL", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "DDRW", "priority": 5},
+		{"set_name": "IGTR", "priority": 4},
+		{"set_name": "InSa", "priority": 3}
+		],
+		"image":"/static/images/Characters/Feixiao.png",
+		"color":"#72a7b4"
+	},
+	
+	"Firefly":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 3,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "ICAS", "priority": 5},
+		{"set_name": "ToSM", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FoKL", "priority": 5},
+		{"set_name": "TKoB", "priority": 3}
+		],
+		"image":"/static/images/Characters/Firefly.png",
+		"color":"#a5acac"
+	},
+	
+	"Fu Xuan":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 2,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "LoDi", "priority": 4},
+		{"set_name": "GoWS", "priority": 3},
+		{"set_name": "MTHs", "priority": 3},
+		{"set_name": "SaRO", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Fu_Xuan.png",
+		"color":"#d4a0bc"
+	},
+	
+	"Fugue":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 3,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "ICAS", "priority": 5},
+		{"set_name": "ToSH", "priority": 4},
+		{"set_name": "WMDM", "priority": 3},
+		{"set_name": "SaRo", "priority": 3},
+		{"set_name": "MTHs", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FoKL", "priority": 5},
+		{"set_name": "TKoB", "priority": 4}
+		],
+		"image":"/static/images/Characters/Fugue.png",
+		"color":"#664a42"
+	},
+	
+	"Gallagher":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 2,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 3,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 4},
+		{"set_name": "ICAS", "priority": 3},
+		{"set_name": "ToSM", "priority": 3},
+		{"set_name": "WMDM", "priority": 2},
+		{"set_name": "SaRO", "priority": 2},
+		{"set_name": "PoWC", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "FoKL", "priority": 4},
+		{"set_name": "TKoB", "priority": 4},
+		{"set_name": "BroK", "priority": 3},
+		{"set_name": "FoTA", "priority": 3},
+		{"set_name": "PLoD", "priority": 3},
+		{"set_name": "LuSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Gallagher.png",
+		"color":"#613818"
+	},
+	
+	"Gepard":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 2,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "KoPP", "priority": 5},
+		{"set_name": "MTHs", "priority": 3},
+		{"set_name": "SaRO", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "BoTA", "priority": 3}
+		],
+		"image":"/static/images/Characters/Gepard.png",
+		"color":"#b9977a"
+	},
+	
+	"Guinaifen":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 2,
+			"effHitRate": 3,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 3,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PiDC", "priority": 5},
+		{"set_name": "ICAS", "priority": 4},
+		{"set_name": "MTHs", "priority": 3},
+		{"set_name": "SaRO", "priority": 3},
+		{"set_name": "PDDW", "priority": 3},
+		{"set_name": "FoLF", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FFGl", "priority": 5},
+		{"set_name": "FoKL", "priority": 4},
+		{"set_name": "SVon", "priority": 4},
+		{"set_name": "BroK", "priority": 3},
+		{"set_name": "FoTA", "priority": 3},
+		{"set_name": "PLoD", "priority": 3},
+		{"set_name": "LuSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Guinaifen.png",
+		"color":"#e09273"
+	},
+	
+	"Hanya":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 2,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 2,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 5},
+		{"set_name": "SaRO", "priority": 4},
+		{"set_name": "EoTL", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 5},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Hanya.png",
+		"color":"#8ca4c3"
+	},
+	
+	"Herta":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 3,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "TAGD", "priority": 5},
+		{"set_name": "SLiE", "priority": 4},
+		{"set_name": "HoGF", "priority": 3},
+		{"set_name": "MoWW", "priority": 2},
+		{"set_name": "PiDC", "priority": 2},
+		{"set_name": "TWSV", "priority": 2},
+		{"set_name": "PDDW", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "SigU", "priority": 5},
+		{"set_name": "DDRW", "priority": 5},
+		{"set_name": "InSa", "priority": 4},
+		{"set_name": "RutA", "priority": 4}
+		],
+		"image":"/static/images/Characters/Herta.png",
+		"color":"#c6a297"
+	},
+	
+	"Himeko":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 3,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "TAGD", "priority": 5},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "PDDW", "priority": 3},
+		{"set_name": "FoLF", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "SigU", "priority": 5},
+		{"set_name": "DDRW", "priority": 5},
+		{"set_name": "InSa", "priority": 4}
+		],
+		"image":"/static/images/Characters/Himeko.png",
+		"color":"#c04b41"
+	},
+	
+	"Pitch Dark Hook The Great":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 3,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PDDW", "priority": 5},
+		{"set_name": "SLiE", "priority": 5},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "FoLF", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FFGl", "priority": 5},
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "SpSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Hook.png",
+		"color":"#bea14e"
+	},
+	
+	"Huohuo":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 3,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "PoWC", "priority": 5},
+		{"set_name": "MTHs", "priority": 5},
+		{"set_name": "SaRo", "priority": 3},
+		{"set_name": "LODi", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FoTA", "priority": 5},
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Huohuo.png",
+		"color":"#a0c5ab"
+	},
+	
+	"Jade":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 2,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 3,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PoMC", "priority": 5},
+		{"set_name": "GoBS", "priority": 5},
+		{"set_name": "TAGD", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "SLiE", "priority": 2},
+		{"set_name": "MoWW", "priority": 2},
+		{"set_name": "PiDC", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "IGTR", "priority": 5},
+		{"set_name": "SigU", "priority": 5},
+		{"set_name": "DDRW", "priority": 5},
+		{"set_name": "InSa", "priority": 4}
+		],
+		"image":"/static/images/Characters/Jade.png",
+		"color":"#be97c0"
+	},
+	
+	"Jiaoqiu":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 3,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 3,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "EoTL", "priority": 5},
+		{"set_name": "MTHs", "priority": 3},
+		{"set_name": "SaRO", "priority": 3},
+		{"set_name": "PDDW", "priority": 3},
+		{"set_name": "FoLF", "priority": 3},
+		{"set_name": "PiDC", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "SVon", "priority": 5},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "PCCE", "priority": 3}
+		],
+		"image":"/static/images/Characters/Jiaoqiu.png",
+		"color":"#d7aea3"
+	},
+	
+	"Jing Yuan":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 3,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "TAGD", "priority": 5},
+		{"set_name": "BoST", "priority": 4},
+		{"set_name": "SaRO", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "TWBP", "priority": 5},
+		{"set_name": "InSa", "priority": 4}
+		],
+		"image":"/static/images/Characters/Jing_Yuan.png",
+		"color":"#bdb5b1"
+	},
+	
+	"Jingliu":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 2,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 3,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "SLiE", "priority": 5},
+		{"set_name": "GoBS", "priority": 4},
+		{"set_name": "HoGF", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "PDDW", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "SpSS", "priority": 3},
+		{"set_name": "InSa", "priority": 2}
+		],
+		"image":"/static/images/Characters/Jingliu.png",
+		"color":"#95a6d3"
+	},
+	
+	"Kafka":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 2,
+			"effHitRate": 3,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 3,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "PiDC", "priority": 5},
+		{"set_name": "BoST", "priority": 4},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "PDDW", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FFGl", "priority": 5},
+		{"set_name": "SpSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Kafka.png",
+		"color":"#662a4c"
+	},
+	
+	"Lingsha":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 3,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "ICAS", "priority": 5},
+		{"set_name": "ToSM", "priority": 4},
+		{"set_name": "WMDM", "priority": 3},
+		{"set_name": "MTHs", "priority": 3},
+		{"set_name": "SaRo", "priority": 3},
+		{"set_name": "PoWC", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FoKL", "priority": 5},
+		{"set_name": "TKoB", "priority": 4},
+		{"set_name": "SVon", "priority": 3},
+		{"set_name": "FoTA", "priority": 3},
+		{"set_name": "BroK", "priority": 3},
+		{"set_name": "PLoD", "priority": 3},
+		{"set_name": "LuSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Lingsha.png",
+		"color":"#443124"
+	},
+	
+	"Luka":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 2,
+			"effHitRate": 3,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 3,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PiDC", "priority": 5},
+		{"set_name": "ToSM", "priority": 4},
+		{"set_name": "CoSB", "priority": 3},
+		{"set_name": "PDDW", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "TKoB", "priority": 5},
+		{"set_name": "FFGl", "priority": 5},
+		{"set_name": "PCCE", "priority": 3},
+		{"set_name": "SpSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Luka.png",
+		"color":"#ae1540"
+	},
+	
+	"Luocha":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 3,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 5},
+		{"set_name": "MoWW", "priority": 4},
+		{"set_name": "PoWC", "priority": 3},
+		{"set_name": "SaRo", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Luocha.png",
+		"color":"#d9bd93"
+	},
+	
+	"Lynx":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 3,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 5},
+		{"set_name": "PoWC", "priority": 4},
+		{"set_name": "SaRo", "priority": 3},
+		{"set_name": "LoDi", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Lynx.png",
+		"color":"#b9977a"
+	},
+	
+	"March 7th - The Preservation":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 2,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 3,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "KoPP", "priority": 5},
+		{"set_name": "MTHs", "priority": 3},
+		{"set_name": "SaRo", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "BoTA", "priority": 4}
+		],
+		"image":"/static/images/Characters/March_7th_Preservation.png",
+		"color":"#e3b7c8"
+	},
+	
+	"March 7th - The Hunt":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 3,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "MoWW", "priority": 5},
+		{"set_name": "WoBD", "priority": 4},
+		{"set_name": "PDDW", "priority": 3},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "IGTR", "priority": 4},
+		{"set_name": "FFGl", "priority": 3}
+		],
+		"image":"/static/images/Characters/March_7th_Hunt.png",
+		"color":"#e3b7c8"
+	},
+	
+	"Misha":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 3,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "SLiE", "priority": 5},
+		{"set_name": "HoGF", "priority": 4},
+		{"set_name": "PDDW", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FFGl", "priority": 5},
+		{"set_name": "RutA", "priority": 4},
+		{"set_name": "InSa", "priority": 3}
+		],
+		"image":"/static/images/Characters/Misha.png",
+		"color":"#b6ced5"
+	},
+	
+	"Moze":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 3,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PDDW", "priority": 5},
+		{"set_name": "TAGD", "priority": 4},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "DDRW", "priority": 5},
+		{"set_name": "IGTR", "priority": 4},
+		{"set_name": "InSa", "priority": 3}
+		],
+		"image":"/static/images/Characters/Moze.png",
+		"color":"#c2c0cf"
+	},
+		
+	"Mydei":{
+		"stat_priority":{
+			"flatHP": 0,
+			"percentHP": 0,
+			"flatATK": 0,
+			"percentATK": 0,
+			"flatDEF": 0,
+			"percentDEF": 0,
+			"SPD": 0,
+			"breakEff": 0,
+			"effHitRate": 0,
+			"effectRes": 0,
+			"critRate": 0,
+			"critDMG": 0,
+			"healBoost": 0,
+			"fireDMG": 0,
+			"iceDMG": 0,
+			"imgDMG": 0,
+			"lightDMG": 0,
+			"physDMG": 0,
+			"quanDMG": 0,
+			"windDMG": 0,
+			"ERR": 0
+		},
+		"best_relics": [
+		{"set_name": "None", "priority": 0}
+		],
+		"best_ornaments": [
+		{"set_name": "None", "priority": 0}
+		],
+		"image":"/static/images/Characters/Mydei.png",
+		"color":"#be796a"
+	},
+	
+	"Natasha":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 3,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 5},
+		{"set_name": "PoWC", "priority": 4},
+		{"set_name": "SaRo", "priority": 3},
+		{"set_name": "LoDi", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Natasha.png",
+		"color":"#567191"
+	},
+	
+	"Pela":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 3,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "EoTL", "priority": 5},
+		{"set_name": "MTHs", "priority": 4},
+		{"set_name": "SaRo", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Pela.png",
+		"color":"#534d84"
+	},
+	
+	"Qingque":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 3,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PoMC", "priority": 5},
+		{"set_name": "GoBS", "priority": 4},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "InSa", "priority": 3}
+		],
+		"image":"/static/images/Characters/Qingque.png",
+		"color":"#c4b39e"
+	},
+	
+	"Rappa":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 2
+		},
+		"best_relics": [
+		{"set_name": "ICAS", "priority": 5},
+		{"set_name": "ToSM", "priority": 4}
+		],
+		"best_ornaments": [
+		{"set_name": "TKoB", "priority": 5},
+		{"set_name": "FoKL", "priority": 4}
+		],
+		"image":"/static/images/Characters/Rappa.png",
+		"color":"#cd9196"
+	},
+	
+	"Robin":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 2,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MoWW", "priority": 4},
+		{"set_name": "SaRo", "priority": 4},
+		{"set_name": "MTHs", "priority": 4},
+		{"set_name": "PiDC", "priority": 4},
+		{"set_name": "TWSV", "priority": 4}
+		],
+		"best_ornaments": [
+		{"set_name": "SVon", "priority": 5},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Robin.png",
+		"color":"#bec5ef"
+	},
+	
+	"Ruan Mei":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 2,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "WMDM", "priority": 5},
+		{"set_name": "MTHs", "priority": 4},
+		{"set_name": "ToSM", "priority": 3},
+		{"set_name": "ICAS", "priority": 2},
+		{"set_name": "SaRo", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "SVon", "priority": 5},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/Ruan_Mei.png",
+		"color":"#565859"
+	},
+	
+	"Sampo":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 2,
+			"effHitRate": 3,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 3,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PiDC", "priority": 5},
+		{"set_name": "EoTL", "priority": 4},
+		{"set_name": "PDDW", "priority": 4},
+		{"set_name": "MoWW", "priority": 4},
+		{"set_name": "TWSV", "priority": 4}
+		],
+		"best_ornaments": [
+		{"set_name": "FFGl", "priority": 5},
+		{"set_name": "PCCE", "priority": 4},
+		{"set_name": "SpSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Sampo.png",
+		"color":"#4e4a77"
+	},
+	
+	"Seele":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 3,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "GoBS", "priority": 5},
+		{"set_name": "SLiE", "priority": 4},
+		{"set_name": "PDDW", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "InSa", "priority": 3}
+		],
+		"image":"/static/images/Characters/Seele.png",
+		"color":"#382d61"
+	},
+	
+	"Serval":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 2,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 3,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PDDW", "priority": 5},
+		{"set_name": "BoST", "priority": 4},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "MoWW", "priority": 2},
+		{"set_name": "PiDC", "priority": 2},
+		{"set_name": "TWSV", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "FFGl", "priority": 5},
+		{"set_name": "SpSS", "priority": 4},
+		{"set_name": "RutA", "priority": 3},
+		{"set_name": "InSa", "priority": 2}
+		],
+		"image":"/static/images/Characters/Serval.png",
+		"color":"#8c5ce1"
+	},
+	
+	"Silver Wolf":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 2,
+			"effHitRate": 3,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 3,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 4},
+		{"set_name": "SaRo", "priority": 4},
+		{"set_name": "GoBS", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "PCCE", "priority": 3}
+		],
+		"image":"/static/images/Characters/SW.png",
+		"color":"#8ea7cf"
+	},
+	
+	"Sparkle":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "SaRo", "priority": 5},
+		{"set_name": "MTHs", "priority": 4},
+		{"set_name": "EoTL", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "SVon", "priority": 3}
+		],
+		"image":"/static/images/Characters/Sparkle.png",
+		"color":"#3a2a33"
+	},
+	
+	"Sunday":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "SaRo", "priority": 5},
+		{"set_name": "MTHs", "priority": 4},
+		{"set_name": "EoTL", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "SVon", "priority": 3}
+		],
+		"image":"/static/images/Characters/Sunday.png",
+		"color":"#bec5ef"
+	},
+	
+	"Sushang":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 3,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "CoSB", "priority": 5},
+		{"set_name": "ToSH", "priority": 4},
+		{"set_name": "WMDM", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "PiDC", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "TKoB", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "SpSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Sushang.png",
+		"color":"#6e4540"
+	},
+	
+	"The Herta":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 3,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 2
+		},
+		"best_relics": [
+		{"set_name": "SLiE", "priority": 5},
+		{"set_name": "HoGF", "priority": 4},
+		{"set_name": "HoTS", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "PiDC", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "IGTR", "priority": 5},
+		{"set_name": "RutA", "priority": 4},
+		{"set_name": "SigU", "priority": 4},
+		{"set_name": "FFGl", "priority": 3}
+		],
+		"image":"/static/images/Characters/Therta.png",
+		"color":"#c6a297"
+	},
+	
+	"Tingyun":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 3,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "SaRO", "priority": 5},
+		{"set_name": "MTHs", "priority": 4},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "PiDC", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "SVon", "priority": 4}
+		],
+		"image":"/static/images/Characters/Tingyun.png",
+		"color":"#664a42"
+	},
+	
+	"Topaz":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 3,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "TAGD", "priority": 5},
+		{"set_name": "PDDW", "priority": 4},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "FoLF", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "DDRW", "priority": 5},
+		{"set_name": "TWBP", "priority": 4},
+		{"set_name": "IGTR", "priority": 3},
+		{"set_name": "InSa", "priority": 2}
+		],
+		"image":"/static/images/Characters/Topaz.png",
+		"color":"#d4b3c7"
+	},
+	
+	"Trailblazer - The Destruction":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 3,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "SLiE", "priority": 5},
+		{"set_name": "CoSB", "priority": 4},
+		{"set_name": "PDDW", "priority": 3},
+		{"set_name": "MoWW", "priority": 2},
+		{"set_name": "PiDC", "priority": 2},
+		{"set_name": "TWSV", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "RutA", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "InSa", "priority": 3},
+		{"set_name": "SpSS", "priority": 2}
+		],
+		"image":"/static/images/Characters/DMC.png",
+		"color":"#493b78"
+	},
+	
+	"Trailblazer - The Harmony":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 2,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "WMDM", "priority": 5},
+		{"set_name": "ToSM", "priority": 4},
+		{"set_name": "ICAS", "priority": 3},
+		{"set_name": "SaRo", "priority": 3},
+		{"set_name": "MTHs", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FoKL", "priority": 5},
+		{"set_name": "TKoB", "priority": 5},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4}
+		],
+		"image":"/static/images/Characters/HMC.png",
+		"color":"#493b78"
+	},
+	
+	"Trailblazer - The Preservation":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 3,
+			"percentDEF": 3,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 2,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 1,
+			"healBoost": 1,
+			"fireDMG": 2,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "KoPP", "priority": 5},
+		{"set_name": "GoWS", "priority": 4},
+		{"set_name": "MTHs", "priority": 3},
+		{"set_name": "SaRo", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "BroK", "priority": 4}
+		],
+		"image":"/static/images/Characters/PMC.png",
+		"color":"#493b78"
+	},
+	
+	"Trailblazer - The Remembrance":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 1,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 3,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 5},
+		{"set_name": "SaRo", "priority": 5},
+		{"set_name": "HoTS", "priority": 4}
+		],
+		"best_ornaments": [
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "SVon", "priority": 3}
+		],
+		"image":"/static/images/Characters/RMC.png",
+		"color":"#493b78"
+	},
+	
+	"Tribbie":{
+		"stat_priority":{
+			"flatHP": 2,
+			"percentHP": 3,
+			"flatATK": 1,
+			"percentATK": 1,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 2,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 3,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "PoMC", "priority": 5},
+		{"set_name": "LoDi", "priority": 4},
+		{"set_name": "SLiE", "priority": 3},
+		{"set_name": "GoBS", "priority": 2},
+		{"set_name": "MTHs", "priority": 2},
+		{"set_name": "SaRo", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "BCSD", "priority": 5},
+		{"set_name": "InSa", "priority": 4},
+		{"set_name": "FoTA", "priority": 3},
+		{"set_name": "PLoD", "priority": 3},
+		{"set_name": "LuSS", "priority": 3},
+		{"set_name": "BroK", "priority": 3},
+		{"set_name": "SVon", "priority": 2}
+		],
+		"image":"/static/images/Characters/Tribbie.png",
+		"color":"#c6372d"
+	},
+	
+	"Welt":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 3,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 3,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "PDDW", "priority": 5},
+		{"set_name": "WoBD", "priority": 4},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "IGTR", "priority": 5},
+		{"set_name": "FFGl", "priority": 4},
+		{"set_name": "RutA", "priority": 3},
+		{"set_name": "PCCE", "priority": 3},
+		{"set_name": "InSa", "priority": 3}
+		],
+		"image":"/static/images/Characters/Welt.png",
+		"color":"#5d4237"
+	},
+	
+	"Xueyi":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 3,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 3,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "GoBS", "priority": 5},
+		{"set_name": "ToSM", "priority": 4},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "PiDC", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "WMDM", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "TKoB", "priority": 5},
+		{"set_name": "SpSS", "priority": 4},
+		{"set_name": "InSa", "priority": 3},
+		{"set_name": "FFGl", "priority": 2}
+		],
+		"image":"/static/images/Characters/Xueyi.png",
+		"color":"#5f4a4e"
+	},
+	
+	"Yanqing":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 3,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 1
+		},
+		"best_relics": [
+		{"set_name": "SLiE", "priority": 5},
+		{"set_name": "HoGF", "priority": 4},
+		{"set_name": "PDDW", "priority": 3},
+		{"set_name": "MoWW", "priority": 3},
+		{"set_name": "TWSV", "priority": 3},
+		{"set_name": "PiDC", "priority": 3}
+		],
+		"best_ornaments": [
+		{"set_name": "FFGl", "priority": 5},
+		{"set_name": "RutA", "priority": 4},
+		{"set_name": "SpSS", "priority": 3}
+		],
+		"image":"/static/images/Characters/Yanqing.png",
+		"color":"#d0bca2"
+	},
+	
+	"Yukong":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 2,
+			"flatATK": 1,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 2,
+			"SPD": 3,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 2,
+			"critRate": 2,
+			"critDMG": 2,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 3,
+			"lightDMG": 1,
+			"physDMG": 1,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "MTHs", "priority": 5},
+		{"set_name": "SaRo", "priority": 4}
+		],
+		"best_ornaments": [
+		{"set_name": "BroK", "priority": 4},
+		{"set_name": "FoTA", "priority": 4},
+		{"set_name": "PLoD", "priority": 4},
+		{"set_name": "LuSS", "priority": 4},
+		{"set_name": "InSa", "priority": 3}
+		],
+		"image":"/static/images/Characters/Yukong.png",
+		"color":"#5e7b80"
+	},
+	
+	"Yunli":{
+		"stat_priority":{
+			"flatHP": 1,
+			"percentHP": 1,
+			"flatATK": 2,
+			"percentATK": 3,
+			"flatDEF": 1,
+			"percentDEF": 1,
+			"SPD": 1,
+			"breakEff": 1,
+			"effHitRate": 1,
+			"effectRes": 1,
+			"critRate": 3,
+			"critDMG": 3,
+			"healBoost": 1,
+			"fireDMG": 1,
+			"iceDMG": 1,
+			"imgDMG": 1,
+			"lightDMG": 1,
+			"physDMG": 3,
+			"quanDMG": 1,
+			"windDMG": 1,
+			"ERR": 3
+		},
+		"best_relics": [
+		{"set_name": "TWSV", "priority": 5},
+		{"set_name": "PoMC", "priority": 4},
+		{"set_name": "TAGD", "priority": 3},
+		{"set_name": "CoSB", "priority": 2},
+		{"set_name": "SLiE", "priority": 2},
+		{"set_name": "MoWW", "priority": 2},
+		{"set_name": "PiDC", "priority": 2}
+		],
+		"best_ornaments": [
+		{"set_name": "InSa", "priority": 5},
+		{"set_name": "DDRW", "priority": 4},
+		{"set_name": "PLoD", "priority": 4}
+		],
+		"image":"/static/images/Characters/Yunli.png",
+		"color":"#4c536e"
+	}
+}		
+			
