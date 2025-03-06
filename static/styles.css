@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+  background-color: #1c1c2e; /* Deep purple-black background */
+  color: #e5d9f7; /* Light lavender text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #d76bff; /* Bright purple for headers */
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #c97cff; /* Slightly muted purple */
+}
+
+h4, legend {
+  color: #a97fb5; /* Softer purple */
+}
+
+p {
+  color: #f2e6ff; /* Very light lavender */
+}
+
+/* Navigation */
+ol {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+ol li {
+  margin: 0;
+}
+
+ol li a {
+  text-decoration: none;
+  color: #e5d9f7;
+  background-color: #3a2c4f; /* Dark purple background */
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+ol li a:hover {
+  background-color: #5b3a7d; /* Brighter purple on hover */
+}
+
+/* Form Elements */
+select, input[type="checkbox"] {
+  background-color: #2a2238; /* Dark gray-purple */
+  color: #e5d9f7;
+  border: 2px solid #5b3a7d; /* Bright purple border */
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+select:hover, input[type="checkbox"]:hover {
+  border-color: #d76bff; /* Bright purple hover effect */
+}
+
+label {
+  color: #e5d9f7;
+  margin-left: 5px;
+}
+
+/* Main Sections */
+main {
+  margin: 20px;
+  padding: 15px;
+  background-color: #292040; /* Deep purple-gray background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Sub-stat Checkbox Group */
+#checkboxgroup {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 10px;
+    margin-top: 20px; /* Space between title and checkboxes */
+}
+
+#checkboxgroup .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid #5b3a7d; /* Bright purple border for the clickable area */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    min-width: 120px; /* Ensures a consistent size */
+    width: auto; /* Adjust the width to content */
+}
+
+#checkboxgroup .checkbox-container:hover {
+    background-color: rgba(216, 107, 255, 0.2); /* Light hover effect */
+}
+
+#checkboxgroup .checkbox-container input[type="checkbox"] {
+    transform: scale(1.2); /* Slightly larger checkboxes */
+    margin: 0; /* Remove default margin */
+}
+
+#checkboxgroup .checkbox-container label {
+    cursor: pointer; /* Ensure the label is clickable */
+}
+
+input[type="checkbox"]:checked + label {
+    font-weight: bold; /* Make the label bold when the checkbox is checked */
+}
+
+/* Footer Links (if any) */
+a {
+  color: #d76bff;
+}
+
+a:hover {
+  color: #ff9dff; /* Light pink-purple on hover */
+}
+
+/* Miscellaneous */
+legend {
+  font-weight: bold;
+  border-bottom: 2px solid #5b3a7d;
+  padding-bottom: 5px;
+  margin-bottom: 15px; /* Added space between legend and checkboxes */
+}
+
+/* General styling for the results section */
+.results-section {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the leaderboard container */
+.leaderboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Styling for each ranking item */
+.ranking-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Image styling */
+.character-image {
+    width: 100px; /* Adjust the image size */
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px; /* Space between image and text */
+}
+
+/* Container for the name and score bar */
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Styling for the character name */
+.character-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Styling the score bar container */
+.score-bar-container {
+    width: 100%;
+    background-color: #111111;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+/* Styling the score bar */
+.score-bar {
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Styling for the score text */
+.score {
+    font-size: 16px;
+    color: #333;
+    padding-left: 10px; /* Space between bar and score text */
+}
